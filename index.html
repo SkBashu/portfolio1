@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaik Bashu | Premium Portfolio</title>
+    <!-- Google Fonts: Inter & Playfair Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome Web-Fonts for Technical Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Bespoke Glass Shatter Entry Overlay -->
+    <div id="glass-overlay">
+
+        <!-- 8 Dynamic Fracture Shards -->
+        <div class="shard shard-1"></div>
+        <div class="shard shard-2"></div>
+        <div class="shard shard-3"></div>
+        <div class="shard shard-4"></div>
+        <div class="shard shard-5"></div>
+        <div class="shard shard-6"></div>
+        <div class="shard shard-7"></div>
+        <div class="shard shard-8"></div>
+    </div>
+
+    <!-- FLOATING PILL NAVBAR -->
+    <div class="nav-wrapper">
+        <nav class="navbar" id="navbar">
+            <div class="nav-logo">
+                <a href="#home" style="display: flex; align-items: baseline;">SHAIK BASHU<span
+                        style="display: inline-block; width: 6px; height: 6px; background-color: #F8DA5B; margin-left: 2px;"></span></a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#training">EXPERIENCE</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+
+            <div class="nav-social-actions">
+                <a href="https://github.com/SkBashu" target="_blank" class="nav-icon" title="GitHub">
+                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                        </path>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/shaikbashu" target="_blank" class="nav-icon" title="LinkedIn">
+                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="https://leetcode.com/u/Shaik_Bashu/" target="_blank" class="nav-icon"
+                    style="color: currentColor;" title="LeetCode">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                        <path
+                            d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.939 5.939 0 0 0 1.271 1.541l11.114 10.666c.115.11.319.314.444.426.152.138.331.252.537.33a1.453 1.453 0 0 0 1.487-.236c.404-.316.598-.822.518-1.32a1.597 1.597 0 0 0-.461-.84l-8.48-8.14c-.03-.027-.061-.055-.094-.08l-.055-.045c-.04-.035-.084-.066-.128-.095l-.042-.028a2.122 2.122 0 0 1-.502-.45c-.027-.035-.054-.07-.08-.108a2.408 2.408 0 0 1-.362-.75A2.348 2.348 0 0 1 6.55 15.6a2.388 2.388 0 0 1 .491-1.285c.029-.04.06-.079.092-.118l.056-.056A2.22 2.22 0 0 1 8.08 13.5l8.163-8.723a1.442 1.442 0 0 0 .285-1.532 1.464 1.464 0 0 0-.943-.902 1.445 1.445 0 0 0-1.076.014c-.318.136-.593.353-.787.625l-.014.015L6.68 10.518s-.803.882-1.04 1.144c-.114.126-.226.257-.333.393a4.232 4.232 0 0 0-.312.446l-4.7-5.02s3.682-3.896 5.532-5.753A6.87 6.87 0 0 1 8.65 0h4.832zM21.05 15.86l4.27 4.56c.712.76 1.107 1.77 1.107 2.82 0 1.05-.395 2.06-1.107 2.82-.76.711-1.77 1.107-2.82 1.107-1.05 0-2.06-.396-2.82-1.107l-4.27-4.56a1.493 1.493 0 0 1 0-2.06c.552-.553 1.447-.553 2.063 0l2.76 2.946c.304.323.71.494 1.127.494.417 0 .822-.171 1.127-.494.622-.62.622-1.633 0-2.253l-2.76-2.945c-.553-.553-.553-1.447 0-2.06a1.493 1.493 0 0 1 2.062 0z"
+                            transform="matrix(1 0 0 -1 -1.48 24.582)" />
+                    </svg>
+                <a href="#contact" class="nav-hire-btn">Hire Me</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero dark-hero" id="home">
+        <div class="hero-content reveal">
+            <h1 class="hero-headline">Hi, I'm <span class="cyan-accent">Bashu</span></h1>
+            <p class="hero-subtext">Aspiring Software Engineer passionate about Machine Learning, Data Analytics, and
+                building real-world intelligent systems.</p>
+            <div class="hero-actions reveal delay-1">
+                <a href="#projects" class="hero-btn magnetic-btn">Explore My Work</a>
+            </div>
+        </div>
+
+        <!-- Background interactive meshes or glows -->
+        <div class="hero-glow"></div>
+
+        <div class="hero-scroll reveal delay-2">
+            <span class="scroll-line"></span>
+            <p>Scroll to explore</p>
+        </div>
+    </header>
+
+    <main>
+        <!-- Premium Dark About Me Section -->
+        <section id="about" class="about-section dark-bg">
+            <div class="section-container reveal flex-col-center">
+
+                <div class="about-header">
+                    <h2 class="about-title">About Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="about-content-wrapper">
+                    <!-- Text & Actions (Left) -->
+                    <div class="about-text-column">
+                        <p>A passionate tech enthusiast and Computer Science student at Lovely Professional University,
+                            specializing in Machine Learning and Data Analytics. I enjoy building impactful projects
+                            that solve real-world problems, from fraud detection systems to data-driven applications.
+                        </p>
+                        <p>With a strong foundation in Python, C, C++, Java, and Android development, I focus on writing
+                            clean, efficient code and creating practical solutions. I have hands-on experience in
+                            machine learning, data analysis, and tools like Power BI, working on projects that transform
+                            data into meaningful insights.</p>
+                        <p>I am particularly interested in problem-solving, intelligent systems, and building scalable
+                            applications. Currently, I am focused on growing as a Software Engineer and continuously
+                            improving my skills through real-world projects and learning.</p>
+
+                        <div class="about-actions mt-4">
+                            <a href="#contact" class="outline-btn magnetic-btn">Get In Touch</a>
+                            <a href="./CV.pdf" download="Shaik_Bashu_Resume.pdf" class="outline-btn magnetic-btn">
+                                <i class="fa-solid fa-download"></i> Resume
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Profile Image Ring (Right) -->
+                    <div class="about-image-column">
+                        <div class="profile-ring">
+                            <div class="profile-gradient-bg">
+                                <img src="https://drive.google.com/thumbnail?id=1unDgbYbfYMGLs0Vx7n2hWqPDiQEobKNV&sz=w1000"
+                                    alt="Shaik Bashu" class="profile-photo" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- TECHNICAL SKILLS (Box Grid) -->
+        <section id="skills" class="skills-section reveal">
+            <div class="section-container flex-col-center">
+                <h2 class="academic-heading magic-text text-center"
+                    style="font-size: clamp(2.5rem, 5vw, 3.5rem); margin-bottom: 3.5rem; color: #1A1A1A;">TECHNICAL
+                    SKILLS</h2>
+
+                <div class="skills-box-grid">
+                    <div class="skill-box reveal fade-up"><i class="fa-brands fa-python"></i><span>Python</span></div>
+                    <div class="skill-box reveal fade-up"><i class="fa-solid fa-c"></i><span>C</span></div>
+                    <div class="skill-box reveal fade-up"><i class="fa-solid fa-code"></i><span>C++</span></div>
+                    <div class="skill-box reveal fade-up"><i class="fa-brands fa-java"></i><span>Java</span></div>
+                    <div class="skill-box reveal fade-up"><i
+                            class="fa-solid fa-mobile-screen-button"></i><span>Kotlin</span></div>
+
+                    <div class="skill-box reveal fade-up delay-1"><i class="fa-solid fa-gears"></i><span>DSA</span>
+                    </div>
+                    <div class="skill-box reveal fade-up delay-1"><i class="fa-solid fa-robot"></i><span>Machine
+                            Learning</span></div>
+                    <div class="skill-box reveal fade-up delay-1"><i class="fa-solid fa-chart-line"></i><span>Data
+                            Analysis</span></div>
+
+                    <div class="skill-box reveal fade-up delay-1"><i class="fa-solid fa-cubes"></i><span>NumPy</span>
+                    </div>
+                    <div class="skill-box reveal fade-up delay-1"><i class="fa-solid fa-table"></i><span>Pandas</span>
+                    </div>
+                    <div class="skill-box reveal fade-up delay-1"><i
+                            class="fa-solid fa-chart-pie"></i><span>Matplotlib</span></div>
+                    <div class="skill-box reveal fade-up delay-1"><i
+                            class="fa-solid fa-chart-area"></i><span>Seaborn</span></div>
+
+                    <div class="skill-box reveal fade-up delay-2"><i class="fa-solid fa-chart-bar"></i><span>Power
+                            BI</span></div>
+
+
+                    <div class="skill-box reveal fade-up delay-2"><i class="fa-brands fa-google"></i><span>Google
+                            Colab</span></div>
+                    <div class="skill-box reveal fade-up delay-2"><i
+                            class="fa-solid fa-book-open"></i><span>Jupyter</span></div>
+
+                    <div class="skill-box reveal fade-up delay-2"><i class="fa-brands fa-html5"></i><span>HTML</span>
+                    </div>
+                    <div class="skill-box reveal fade-up delay-2"><i class="fa-brands fa-css3-alt"></i><span>CSS</span>
+                    </div>
+                </div>
+
+                <h2 class="academic-heading magic-text text-center mt-10"
+                    style="font-size: clamp(2.5rem, 5vw, 3.5rem); margin-top: 4rem; margin-bottom: 3.5rem; color: #1A1A1A;">SOFT
+                    SKILLS</h2>
+
+                <div class="skills-box-grid" style="margin-bottom: 2rem;">
+                    <div class="skill-box reveal fade-up"><i class="fa-solid fa-lightbulb"></i><span>Problem-Solving</span></div>
+                    <div class="skill-box reveal fade-up delay-1"><i class="fa-solid fa-users"></i><span>Team Player</span></div>
+                    <div class="skill-box reveal fade-up delay-2"><i class="fa-solid fa-arrows-spin"></i><span>Adaptability</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PREMIUM TRAINING SECTION -->
+        <section id="training" class="training-section reveal">
+            <div class="section-container flex-col-center">
+
+                <div class="training-header">
+                    <h2 class="training-title"><span class="text-gradient-orange">Tr</span><span
+                            class="text-gradient-purple">aining</span></h2>
+                </div>
+
+                <div class="training-card reveal fade-up">
+                    <div class="training-icon-box">
+                        <!-- Graduation cap icon reflecting the reference -->
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+
+                    <div class="training-content">
+                        <div class="training-top-row">
+                            <h3 class="training-course">Summer Training &ndash; Machine Learning</h3>
+                            <span class="training-date-pill">July 2025</span>
+                        </div>
+                        <p class="training-org">Lovely Professional University (LPU)</p>
+
+                        <div class="training-bullets">
+                            <ul class="bullet-col">
+                                <li><i class="fa-solid fa-caret-right"></i> EDA with Pandas & NumPy</li>
+                                <li><i class="fa-solid fa-caret-right"></i> Ensemble Methods (RF, XGBoost)</li>
+                                <li><i class="fa-solid fa-caret-right"></i> Feature Engineering</li>
+                            </ul>
+                            <ul class="bullet-col">
+                                <li><i class="fa-solid fa-caret-right"></i> KNN, SVM, Decision Tree</li>
+                                <li><i class="fa-solid fa-caret-right"></i> Hands-on Model Building</li>
+                            </ul>
+                        </div>
+
+                        <a href="https://files.lpu.in/umsweb/skilldevcourse/SkillDevelopmentCertificates/12304465_846_20_08_2025.pdf?_gl=1*1l1myb*_gcl_au*MTcyNTUxNjQ2My4xNzczNDgwNzk5"
+                            target="_blank" class="training-btn magnetic-btn">
+                            <i class="fa-solid fa-file-contract"></i> View Certificate
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Premium Dark Interactive Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="centered-container flex-col-center" style="max-width: 1400px; margin: 0 auto; width: 100%;">
+
+                <div class="section-header text-center reveal"
+                    style="border: none; padding-bottom: 2rem; display: flex; flex-direction: column; align-items: center; gap: 0.5rem;">
+                    <h2 class="dark-project-heading">Projects</h2>
+                    <div class="project-underline"></div>
+                    <p class="section-subtitle"
+                        style="font-size: 1.1rem; font-weight: 500; color: #888888; margin-top: 1rem;">A showcase of
+                        some of my featured work</p>
+                </div>
+
+                <div class="projects-carousel-container reveal" style="margin-top: 0; width: 100%; max-width: 1200px;">
+                    <button class="carousel-btn dark-nav-btn prev-btn magnetic-btn">&lt;</button>
+
+                    <div class="projects-carousel dark-carousel">
+                        <!-- Project 1 -->
+                        <div class="carousel-item dark-project-card">
+                            <div class="card-image-wrap">
+                                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
+                                    class="project-img" alt="Credit Card Fraud Detection" />
+                                <div class="project-overlay">
+                                    <div class="project-overlay-links">
+                                        <a href="https://github.com/aryanchand227/Fraud_detection_in_Credit_Card_Transaction"
+                                            target="_blank" class="project-btn magnetic-btn outline">Source Code</a>
+                                        <a href="https://github.com/aryanchand227/Fraud_detection_in_Credit_Card_Transaction"
+                                            target="_blank" class="project-btn magnetic-btn primary">Live Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dark-card-content">
+                                <h3 class="card-title">Credit Card Fraud Detection</h3>
+                                <p class="card-desc">Supervised ML system detecting fraudulent transactions on the
+                                    Kaggle dataset using Logistic Regression, SVM, and KNN.</p>
+                                <div class="tech-stack">
+                                    <span class="tech-stack-label">Tech Stack:</span>
+                                    <span class="tech-pill">Python</span>
+                                    <span class="tech-pill">Scikit-Learn</span>
+                                    <span class="tech-pill">Pandas</span>
+                                </div>
+                                <div class="card-action-links" style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+                                    <a href="https://github.com/aryanchand227/Fraud_detection_in_Credit_Card_Transaction"
+                                        target="_blank" class="project-btn magnetic-btn primary"
+                                        style="padding: 0.6rem 1.4rem; font-size: 0.85rem;">
+                                        <i class="fa-brands fa-github"></i> Source Code
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 2 -->
+                        <div class="carousel-item dark-project-card">
+                            <div class="card-image-wrap">
+                                <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=800"
+                                    class="project-img" alt="Employee Segmentation" />
+                                <div class="project-overlay">
+                                    <div class="project-overlay-links">
+                                        <a href="https://github.com/SkBashu/Employee-Performance-Segmentation-for-HR-Insights"
+                                            target="_blank" class="project-btn magnetic-btn outline">Source Code</a>
+                                        <a href="https://github.com/SkBashu/Employee-Performance-Segmentation-for-HR-Insights"
+                                            target="_blank" class="project-btn magnetic-btn primary">Live Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dark-card-content">
+                                <h3 class="card-title">Employee Segmentation</h3>
+                                <p class="card-desc">End-to-end HR analytics pipeline for 5,000+ records. Interactive
+                                    Power BI dashboards powered by robust clustering models.</p>
+                                <div class="tech-stack">
+                                    <span class="tech-stack-label">Tech Stack:</span>
+                                    <span class="tech-pill">Power BI</span>
+                                    <span class="tech-pill">Python</span>
+                                    <span class="tech-pill">Clustering</span>
+                                </div>
+                                <div class="card-action-links" style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+                                    <a href="https://github.com/SkBashu/Employee-Performance-Segmentation-for-HR-Insights"
+                                        target="_blank" class="project-btn magnetic-btn primary"
+                                        style="padding: 0.6rem 1.4rem; font-size: 0.85rem;">
+                                        <i class="fa-brands fa-github"></i> Source Code
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 3 -->
+                        <div class="carousel-item dark-project-card">
+                            <div class="card-image-wrap">
+                                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800"
+                                    class="project-img" alt="Secure File Management System" />
+                                <div class="project-overlay">
+                                    <div class="project-overlay-links">
+                                        <a href="https://github.com/Gurfiyaz/Secure-File-Management-System"
+                                            target="_blank" class="project-btn magnetic-btn outline">Source Code</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dark-card-content">
+                                <h3 class="card-title">Secure File Management</h3>
+                                <p class="card-desc">C-based console application with password-validated registration,
+                                    advanced masking, and metadata extraction. Optimized ANSI terminal reduced user
+                                    errors by 70%.</p>
+                                <div class="tech-stack">
+                                    <span class="tech-stack-label">Tech Stack:</span>
+                                    <span class="tech-pill">C</span>
+                                    <span class="tech-pill">GCC Compiler</span>
+                                    <span class="tech-pill">Terminal</span>
+                                </div>
+                                <div class="card-action-links" style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+                                    <a href="https://github.com/Gurfiyaz/Secure-File-Management-System" target="_blank"
+                                        class="project-btn magnetic-btn primary"
+                                        style="padding: 0.6rem 1.4rem; font-size: 0.85rem;">
+                                        <i class="fa-brands fa-github"></i> Source Code
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-btn dark-nav-btn next-btn magnetic-btn">&gt;</button>
+                </div>
+
+                <div class="dark-carousel-pagination reveal delay-1">
+                    <span class="circle-dot active"></span>
+                    <span class="circle-dot"></span>
+                    <span class="circle-dot"></span>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Academic Journey -->
+        <section id="academic" class="editorial-section" style="padding-top: 5rem;">
+            <div class="academic-full-container">
+                <div class="academic-heading-container reveal">
+                    <h3 class="hero-subtitle mb-4">04 &mdash; Education</h3>
+                    <h2 class="academic-heading magic-text">My Academic<br>Journey.</h2>
+                </div>
+
+                <div class="timeline-container">
+                    <div class="timeline-line"></div>
+
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item left reveal fade-left">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content horizontal">
+                            <img src="https://happenings.lpu.in/wp-content/uploads/2016/06/logo-1.png" alt="LPU Logo"
+                                class="timeline-logo">
+                            <div class="timeline-text">
+                                <h3 class="timeline-title">B.Tech in Computer Science</h3>
+                                <p class="timeline-inst">Lovely Professional University</p>
+                                <div class="timeline-meta">
+                                    <span class="timeline-duration">2023 &mdash; 2027</span>
+                                    <span class="timeline-score">Score: 7.76 (present)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item right reveal fade-right delay-1">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content horizontal">
+                            <img src="https://play-lh.googleusercontent.com/hrbZxpBovIdzhkhwdDN-c1vu3qEAYFZHoCiL-lSgZzGeqOMODgvaJWH1ysnrPlgPtmo=w600-h300-pc0xffffff-pd"
+                                alt="Sri Chaitanya College Logo" class="timeline-logo">
+                            <div class="timeline-text">
+                                <h3 class="timeline-title">Higher Secondary Education</h3>
+                                <p class="timeline-inst">Sri Chaitanya Educational Institutions</p>
+                                <div class="timeline-meta">
+                                    <span class="timeline-duration">2021 &mdash; 2023</span>
+                                    <span class="timeline-score">Score: 9.24%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 3 -->
+                    <div class="timeline-item left reveal fade-left delay-2">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content horizontal">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE6OcewJuo_ZntoWHHxUqqkoiXGCcTCiI9Cw&s"
+                                alt="Sri Chaitanya School Logo" class="timeline-logo">
+                            <div class="timeline-text">
+                                <h3 class="timeline-title">Secondary Education</h3>
+                                <p class="timeline-inst">Sri Chaitanya Techno School</p>
+                                <div class="timeline-meta">
+                                    <span class="timeline-duration">2020 &mdash; 2021</span>
+                                    <span class="timeline-score">Score: 100%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Stack Section (Scrolling Sticky Effect) -->
+        <section id="certifications" class="cert-stack-section reveal">
+            <h2 class="academic-heading magic-text"
+                style="font-size: clamp(2.5rem, 5vw, 3.5rem); margin-bottom: 3rem; text-align: center;">CERTIFICATIONS
+            </h2>
+
+            <div class="cert-stack-container">
+
+                <!-- Certificate 1: Oracle -->
+                <div class="stack-card reveal">
+                    <div class="stack-image-left">
+                        <img src="https://drive.google.com/thumbnail?id=16kYOxUuB0kGNmfa1PAO5id6pUtKAtLP9&sz=w800"
+                            alt="Oracle Certificate">
+                    </div>
+                    <div class="stack-content-right">
+                        <h3 class="cert-title-classic">Oracle Data Platform 2025 Certified Foundations Associate</h3>
+                        <p class="cert-issuer">Oracle</p>
+                        <a href="https://drive.google.com/file/d/16kYOxUuB0kGNmfa1PAO5id6pUtKAtLP9/view" target="_blank"
+                            class="cert-view-btn magnetic-btn">View Certificate</a>
+                    </div>
+                </div>
+
+                <!-- Certificate 2: Udemy Generative AI -->
+                <div class="stack-card reveal delay-1">
+                    <div class="stack-image-left">
+                        <img src="https://drive.google.com/thumbnail?id=1fcjkZIDSnvLwCAFJIqKL2C1dU73-kKpT&sz=w800"
+                            alt="Udemy Gen AI Certificate">
+                    </div>
+                    <div class="stack-content-right">
+                        <h3 class="cert-title-classic">Master Generative AI and Generative AI Tools</h3>
+                        <p class="cert-issuer">Udemy</p>
+                        <a href="https://drive.google.com/file/d/1fcjkZIDSnvLwCAFJIqKL2C1dU73-kKpT/view" target="_blank"
+                            class="cert-view-btn magnetic-btn">View Certificate</a>
+                    </div>
+                </div>
+
+                <!-- Certificate 3: FreeCodeCamp -->
+                <div class="stack-card reveal delay-2">
+                    <div class="stack-image-left">
+                        <img src="https://drive.google.com/thumbnail?id=1cWH5wqHBY_D2HxxDebtx2R9uh2QkTO9X&sz=w800"
+                            alt="FreeCodeCamp Web Design Certificate">
+                    </div>
+                    <div class="stack-content-right">
+                        <h3 class="cert-title-classic">Responsive Web Design</h3>
+                        <p class="cert-issuer">FreeCodeCamp</p>
+                        <a href="https://drive.google.com/file/d/1cWH5wqHBY_D2HxxDebtx2R9uh2QkTO9X/view" target="_blank"
+                            class="cert-view-btn magnetic-btn">View Certificate</a>
+                    </div>
+                </div>
+
+                <!-- Certificate 4: Network Communication -->
+                <div class="stack-card reveal delay-2">
+                    <div class="stack-image-left">
+                        <img src="https://drive.google.com/thumbnail?id=1BdEhNaRlxEJw1K_qV72q6TBJmrMWI4v2&sz=w800"
+                            alt="Fundamentals of Network Communication">
+                    </div>
+                    <div class="stack-content-right">
+                        <h3 class="cert-title-classic">Fundamentals of Network Communication</h3>
+                        <p class="cert-issuer">Online Certification</p>
+                        <a href="https://drive.google.com/file/d/1BdEhNaRlxEJw1K_qV72q6TBJmrMWI4v2/view?usp=sharing"
+                            target="_blank" class="cert-view-btn magnetic-btn">View Certificate</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="modern-contact-section reveal">
+
+            <div class="contact-layout-centered">
+                <!-- Typography & Intro -->
+                <div class="contact-heading-wrapper reveal">
+                    <h2 class="contact-title-huge animated-heading">
+                        LET'S BUILD<br>
+                        SOMETHING GREAT
+                    </h2>
+                    <p class="contact-description-centered">
+                        I'm always open to new opportunities, collaborations, and interesting projects. Let's connect.
+                    </p>
+                </div>
+
+                <!-- Interactive Solid Form -->
+                <div class="contact-form-wrapper reveal delay-1">
+                    <div class="contact-watermark">CONTACT</div>
+                    <form class="solid-form" action="mailto:karimulla292762@gmail.com" method="GET">
+                        <div class="input-light-group">
+                            <input type="text" id="name" class="solid-input" placeholder="Your Name" required>
+                        </div>
+
+                        <div class="input-light-group">
+                            <input type="email" id="email" class="solid-input" placeholder="Your Email" required>
+                        </div>
+
+                        <div class="input-light-group">
+                            <textarea id="message" class="solid-textarea" placeholder="Your Message"
+                                required></textarea>
+                        </div>
+
+                        <button type="submit" class="solid-submit magnetic-btn">
+                            <span class="submit-text">SEND MESSAGE</span>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Info Horizontal Bar -->
+                <div class="contact-info-bar reveal delay-2">
+                    <a href="mailto:karimulla292762@gmail.com" class="info-item">
+                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2"
+                            fill="none">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        karimulla292762@gmail.com
+                    </a>
+                    <a href="tel:+917995421599" class="info-item">
+                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2"
+                            fill="none">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                            </path>
+                        </svg>
+                        +91-7995421599
+                    </a>
+                    <span class="info-item">
+                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2"
+                            fill="none">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        India
+                    </span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="dark-footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2 class="footer-logo">SHAIK BASHU.</h2>
+                <p>&copy; 2026 All rights reserved.</p>
+            </div>
+            <div class="footer-right">
+                <a href="https://github.com/SkBashu" target="_blank" class="footer-icon-link">
+                    <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none">
+                        <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                        </path>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/shaikbashu" target="_blank" class="footer-icon-link">
+                    <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="mailto:karimulla292762@gmail.com" class="footer-icon-link">
+                    <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
